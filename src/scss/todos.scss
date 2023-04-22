@@ -1,0 +1,16 @@
+.todos {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.todos__header {
+    text-align: center;
+}
+
+.todos__header h1 {
+    margin-bottom: 25px;
+    font-size: 30px;
+    font-weight: 600;
+    color: #949292;
+}

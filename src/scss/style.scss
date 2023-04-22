@@ -1,0 +1,68 @@
+@use 'sass:math';
+//<Иконочный шрифт>
+//@import "icons";
+//</Иконочный шрифт>
+
+//<Шрифт по умолчанию>
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,regular,500,700,900&display=swap");
+$fontFamily: "Roboto";
+$fontSize: 14;
+//</Шрифт по умолчанию>
+
+//<Основні кольори</>
+$mainColor:rgba(71, 71, 71, 1); //Кольор шрифта за замовченням
+
+$minWidth: 320px; // Мінімальна ширина макету
+$maxWidth: 1920px; // Максимальна ширина макету
+//!<Контаінер>
+.container {
+    @media(min-width: 991.98px) {
+    max-width: 1680px;
+    margin: 0 auto;
+    padding: 0px 10px;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+  }
+  @media(max-width: 991.98px){
+    padding: 0 15px;
+  }
+}
+//!</Контаінер>
+
+//<Брейк-поїнти>
+$desktops: (1200px); // large laptops and desktops
+$laptops: (992px); // laptops/desktops
+$tablets: (768px); // landscape tablets
+$phones: (600px); // portrait tablets and large phones
+$smalPhones: (360px); // iphone se/2, samsung galaxy 10 mini 
+
+//</Брейк-поїнти>
+
+//<Скидання + Загальні параметри>
+body {
+    height: 100%;
+    font-family: $fontFamily; //Если шрифт одного класса
+    background-color: #edf5ff;
+    color: #fff;
+    &._lock {
+        overflow: hidden;
+        touch-action: none;
+        overscroll-behavior: none;
+    }
+}
+//</Загальні параметри>
+
+//<Оболочка>
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    /*Подвал*/
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+@import "reset";
+@import "navbar";
+@import "main";
+@import "todos"

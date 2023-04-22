@@ -1,0 +1,9 @@
+<section class="todos">
+    <div class="todos__container container">
+        <div class="todos__header">
+            <h1>Todos</h1>
+            <input class="new-todo" autofocus autocomplete="off" placeholder="What needs to be done?" v-model="newTodo"
+                @keyup.enter="addTodo" />
+        </div>
+    </div>
+</section>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+@@include('html/head.html',{
+"title":"Todo"
+})
+
+<body>
+	@@include('html/navbar.html',{})
+	<main>
+		<div class="main__container container">
+			<div class="page__main-block">
+				<div class="main-block-body">
+					<div class="project">
+						<h2>Your Todos</h2>
+					</div>
+					<div class="button-container">
+						<button class="button">
+							<div class="button__inner">
+								<div class="button__external">
+									<div class="button__plus">
+									</div>
+								</div>
+							</div>
+							<p class="button-text">Add New Todos</p>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		@@include('html/todos.html',{})
+	</main>
+	<script src="js/app.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,176 @@
+.page__main-block {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0px 20px 90px;
+}
+.main-block-body {
+  display: flex;
+  align-items: center;
+}
+  .project h2 {
+      font-size: 16px;
+      font-weight: 700;
+      color: $mainColor;
+      align-items: center;
+  }
+  .button-container {
+    display: flex;
+    align-items: center;
+    margin-left: 70%;
+    
+    .button {
+      background: none;
+      border: none;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+        
+        .button__inner {
+            width: 24px;
+            height: 24px;
+            background: #EBF3FF;
+            box-shadow:  -5px -5px 10px rgba(255, 255, 255, 0.9), 5px 5px 10px rgba(179, 192, 212, 0.5), inset -8px -8px 16px #FFFFFF, inset 8px 8px 16px #B3C0D4;
+            border-radius:50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+            .button__external {
+                width: 16px;
+                height: 16px;
+                background:#FFFFFF;
+                box-shadow: -8px -8px 16px #FFFFFF, 8px 8px 16px #B3C0D4, inset -10px -10px 20px rgba(255, 255, 255, 0.9);
+                border-radius:50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                
+                .button__plus {
+                    width: 4px;
+                    height: 4px;
+                    border-top:2.0px solid black;
+                    border-right:2.0px solid black;
+                    transform:rotate(45deg);
+                }
+            }
+        }
+      }
+        .button-text {
+            font-weight: 700;
+            font-size: 16px;
+            margin-left: 14px;
+            color: $mainColor;
+  }:hover {
+    color: rgb(216, 31, 31)
+  }
+};
+
+   @media (max-width: $laptops) {
+    .page__main-block {
+      align-items:center;
+      margin: 0;
+    }
+
+    .main-block-body {
+      display: block;
+      flex-wrap: wrap;
+      margin-top: 10px;
+    }
+
+    .project h2 {
+      text-align: center;
+      font-size: 40px;
+      margin-bottom: 30px;
+    }
+
+    .button-container {
+      margin-left: 20px;
+    }
+
+    .button__inner{
+      width: 78px;
+      height: 78px;
+      
+    .button__external {
+          width: 48px;
+          height: 48px; 
+          
+    .button__plus {
+            width:8px;
+            height:6px;
+          }
+        }
+      }
+
+    .button-text {
+        font-size: 40px;
+      }
+  }
+   
+   @media (max-width: $phones){
+    .page__main-block {
+      margin: 0;
+    }
+
+    .project h2 {
+      font-size: 40px;
+      margin-bottom: 25px;
+    }
+
+    .button-container {
+      margin-left: 20px;
+    }
+
+    .button__external {
+        width: 48px;
+        height: 48px;
+        box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.9), 
+                    4px 4px 8px rgba(179, 192, 212, 0.5), 
+                    inset -8px -8px 16px #FFFFFF, 
+                    inset 8px 8px 16px #B3C0D4;
+        
+      .button__plus {
+          width: 28px;
+          height: 28px;
+          
+    .button__plus {
+            width:8px;
+            height:8px;
+          }
+        }
+      }
+    .button-text {
+        font-size: 40px;
+        margin-left: 30px;
+      }
+   };
+   
+   @media (max-width: $smalPhones) {
+    .project h2 {
+      font-size: 20px;
+      margin: 0px 0px 15px 0px;
+    }
+
+    .button {
+      margin-right: 20px;
+    }
+
+    .button__external {
+      width: 28px;
+      height: 28px;
+
+      .button__inner {
+        width: 19px;
+        height: 19px;
+        
+  .button__plus {
+          width: 5px;
+          height: 5px;
+        }
+      }
+    }
+  .button-text {
+      font-size: 22px;
+      margin-left: 15px;
+    }
+   }
