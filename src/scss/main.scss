@@ -1,7 +1,7 @@
 .page__main-block {
   display: flex;
   flex-direction: column;
-  margin: 25px 0px 20px 90px;
+  margin: 25px 0px 0px 120px;
 }
 .main-block-body {
   display: flex;
@@ -17,7 +17,7 @@
   .button__add-container {
     display: flex;
     align-items: center;
-    margin-left: 70%;
+    margin-left: 80%;
     
     button {
       color: var(--text);
