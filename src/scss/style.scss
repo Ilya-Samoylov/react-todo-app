@@ -10,10 +10,9 @@ $fontSize: 14;
 //</Шрифт по умолчанию>
 
 //<Основні кольори</>
-$mainColor:rgba(71, 71, 71, 1); //Кольор шрифта за замовченням
-
 $minWidth: 320px; // Мінімальна ширина макету
 $maxWidth: 1920px; // Максимальна ширина макету
+ 
 //!<Контаінер>
 .container {
     @media(min-width: 991.98px) {
@@ -38,12 +37,13 @@ $smalPhones: (360px); // iphone se/2, samsung galaxy 10 mini
 
 //</Брейк-поїнти>
 
-//<Скидання + Загальні параметри>
+//<Загальні параметри>
+
+
 body {
     height: 100%;
     font-family: $fontFamily; //Если шрифт одного класса
-    background-color: #edf5ff;
-    color: #fff;
+    background-color: var(--bg-color);
     &._lock {
         overflow: hidden;
         touch-action: none;
@@ -63,6 +63,7 @@ body {
   }
 
 @import "reset";
+@import "root";
 @import "navbar";
 @import "main";
 @import "todos"

@@ -1,0 +1,64 @@
+//!Light Theme
+:root {
+    --bg-color: #edf5ff;
+    --text: rgba(71, 71, 71, 1);
+//nav
+    --nav-bg: #f3f6fa;
+    --nav-shadov: -8px -8px 14px #FFFFFF, 
+                    4px 4px 12px #b3c0d483;
+    --nav-shadov-mobile: -8px -8px 14px #FFFFFF, 
+                          4px 4px 12px #b3c0d483;
+//-------------------------------------------------------------------
+
+//button__add
+    --btn-bg: #f3f6fa;
+    --btn-shadov: 3px 3px 6px #b3c0d483,
+                    -3px -3px 6px #ffffff;
+    --btn-focus-bg: #edf5ff;
+    --btn-active-shadov: inset 2px 2px 6px #b3c0d483,
+                            inset -2px -2px 6px #ffffff;
+//-------------------------------------------------------------------
+
+//todos
+    --input-shadov: 6px 6px 12px #b3c0d44d,
+                    -4px -4px 12px #ffffff;
+    --imput-focus-bg: #edf5ff;
+    --imput-focus-shadov: inset 5px 5px 10px #b3c0d483,
+                            inset -5px -5px 10px #ffffff;
+//-------------------------------------------------------------------
+
+//Nav toggle img
+    --toggle: url(../img/nav/night.png)
+  }
+
+//!Dark Theme
+:root[data-theme='dark'] {
+    --bg-color: #3d3d3d;
+    --text: #949292;
+//nav
+    --nav-bg: #3d3d3d;
+    --nav-shadov: -8px -8px 14px #4b4b4b, 
+                    4px 4px 12px #333333;
+    --nav-shadov-mobile: 4px 4px 14px #2a2a2a,
+                        -8px -8px 14px #4b4b4b;
+//-------------------------------------------------------------------
+
+//button__add 
+    --btn-bg: #3d3d3d;
+    --btn-shadov: 3px 3px 6px #333333,
+                  -3px -3px 6px #4b4b4b;
+    --btn-focus-bg: #3d3d3d;
+    --btn-active-shadov: inset 2px 2px 6px #333333,
+                            inset -2px -2px 6px #4b4b4b;
+//-------------------------------------------------------------------
+//todos
+    --input-shadov: 6px 6px 12px #333333,
+                    -4px -4px 12px #4b4b4b;
+    --imput-focus-bg: #3d3d3d;
+    --imput-focus-shadov: inset 5px 5px 10px #333333,
+                            inset -3px -3px 10px #4b4b4b;
+//-------------------------------------------------------------------
+
+//Nav toggle img
+    --toggle: url(../img/nav/light.png)
+  }
