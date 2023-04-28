@@ -53,10 +53,11 @@
     .project h2 {
       text-align: center;
       font-size: 40px;
-      margin-bottom: 20px;
     }
 
     .button__add-container {
+      position: fixed;
+      top: 83%;
       margin-left: 35px;
     }
 
@@ -76,11 +77,9 @@
 
     .project h2 {
       font-size: 40px;
-      margin-bottom: 25px;
     }
 
     .button__add-container {
-      position: fixed;
       top: 78%;
       margin-left: 30px;
     }
@@ -88,7 +87,7 @@
     .button {
       color: var(--text);
       padding: 0.8em 1.2em;
-      font-size: 18px;
+      font-size: 14px;
      }
    };
 //------------------------------------------
@@ -102,12 +101,12 @@
 
     .button__add-container {
       top: 75%;
-      margin: 0px 0px 0px -20px;
+      margin: 0px 0px 0px -15px;
     }
 
     .button {
       color: var(--text);
-      padding: 0.6em 0.8em;
+      padding: 0.6em 0.7em;
       font-size: 14px;
      }
    }

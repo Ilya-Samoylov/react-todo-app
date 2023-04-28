@@ -1,9 +1,9 @@
 //!Light Theme
 :root {
-    --bg-color: #edf5ff;
+    --bg-color: #f5fcff;
     --text: rgba(71, 71, 71, 1);
 //nav
-    --nav-bg: #f3f6fa;
+    --nav-bg: #ffffff;
     --nav-shadov: -8px -8px 14px #FFFFFF, 
                     4px 4px 12px #b3c0d483;
     --nav-shadov-mobile: -8px -8px 14px #FFFFFF, 
@@ -11,10 +11,10 @@
 //-------------------------------------------------------------------
 
 //button__add
-    --btn-bg: #f3f6fa;
+    --btn-bg: #ffffff;
     --btn-shadov: 3px 3px 6px #b3c0d483,
                     -3px -3px 6px #ffffff;
-    --btn-focus-bg: #edf5ff;
+    --btn-focus-bg: #f5fcff;
     --btn-active-shadov: inset 2px 2px 6px #b3c0d483,
                             inset -2px -2px 6px #ffffff;
 //-------------------------------------------------------------------
@@ -22,7 +22,7 @@
 //todos
     --input-shadov: 6px 6px 12px #b3c0d44d,
                     -4px -4px 12px #ffffff;
-    --imput-focus-bg: #edf5ff;
+    --imput-focus-bg: #f5fcff;
     --imput-focus-shadov: inset 5px 5px 10px #b3c0d483,
                             inset -5px -5px 10px #ffffff;
 //-------------------------------------------------------------------
@@ -36,8 +36,8 @@
     --bg-color: #3d3d3d;
     --text: #949292;
 //nav
-    --nav-bg: #3d3d3d;
-    --nav-shadov: -8px -8px 14px #4b4b4b, 
+    --nav-bg: #3b3b3b;
+    --nav-shadov: -4px -4px 14px #4b4b4b, 
                     4px 4px 12px #333333;
     --nav-shadov-mobile: 4px 4px 14px #2a2a2a,
                         -8px -8px 14px #4b4b4b;

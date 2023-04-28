@@ -3,13 +3,18 @@ function addMarginOnHover(navSelector, mainSelector) {
     const main = document.querySelector(mainSelector);
 
     nav.addEventListener('mouseover', () => {
-        main.style.marginLeft = '140px';
+        if (window.innerWidth > 991) {
+            main.style.marginLeft = '160px';
+        }
     });
 
     nav.addEventListener('mouseout', () => {
-        main.style.marginLeft = '0px';
+        if (window.innerWidth > 991) {
+            main.style.margin = '0px';
+        }
     });
 }
+
 addMarginOnHover('nav', 'main');
 
 export default addMarginOnHover;
