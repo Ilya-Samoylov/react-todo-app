@@ -1,29 +1,21 @@
 //!Light Theme
 :root {
-    --bg-color: #f5fcff;
+    --bg-color: #e8e8e8;
     --text: rgba(71, 71, 71, 1);
+    --shadov: 6px 6px 12px #c5c5c5,
+                -6px -6px 12px #ffffff;
 //nav
-    --nav-bg: #ffffff;
-    --nav-shadov: -8px -8px 14px #FFFFFF, 
-                    4px 4px 12px #b3c0d483;
     --nav-shadov-mobile: -8px -8px 14px #FFFFFF, 
-                          4px 4px 12px #b3c0d483;
+                          4px 4px 12px #c5c5c5;
 //-------------------------------------------------------------------
 
 //button__add
-    --btn-bg: #ffffff;
-    --btn-shadov: 3px 3px 6px #b3c0d483,
-                    -3px -3px 6px #ffffff;
-    --btn-focus-bg: #f5fcff;
-    --btn-active-shadov: inset 2px 2px 6px #b3c0d483,
+    --btn-active-shadov: inset 2px 2px 6px #c5c5c5,
                             inset -2px -2px 6px #ffffff;
 //-------------------------------------------------------------------
 
 //todos
-    --input-shadov: 6px 6px 12px #b3c0d44d,
-                    -4px -4px 12px #ffffff;
-    --imput-focus-bg: #f5fcff;
-    --imput-focus-shadov: inset 5px 5px 10px #b3c0d483,
+    --imput-focus-shadov: inset 5px 5px 10px #c5c5c5,
                             inset -5px -5px 10px #ffffff;
 //-------------------------------------------------------------------
 
@@ -35,26 +27,18 @@
 :root[data-theme='dark'] {
     --bg-color: #3d3d3d;
     --text: #949292;
+    --shadov: 6px 6px 12px #333333,
+                -6px -6px 12px #4b4b4b;
 //nav
-    --nav-bg: #3b3b3b;
-    --nav-shadov: -4px -4px 14px #4b4b4b, 
-                    4px 4px 12px #333333;
     --nav-shadov-mobile: 4px 4px 14px #2a2a2a,
-                        -8px -8px 14px #4b4b4b;
+                            -8px -8px 14px #4b4b4b;
 //-------------------------------------------------------------------
 
 //button__add 
-    --btn-bg: #3d3d3d;
-    --btn-shadov: 3px 3px 6px #333333,
-                  -3px -3px 6px #4b4b4b;
-    --btn-focus-bg: #3d3d3d;
     --btn-active-shadov: inset 2px 2px 6px #333333,
                             inset -2px -2px 6px #4b4b4b;
 //-------------------------------------------------------------------
 //todos
-    --input-shadov: 6px 6px 12px #333333,
-                    -4px -4px 12px #4b4b4b;
-    --imput-focus-bg: #3d3d3d;
     --imput-focus-shadov: inset 5px 5px 10px #333333,
                             inset -3px -3px 10px #4b4b4b;
 //-------------------------------------------------------------------

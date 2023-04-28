@@ -24,15 +24,15 @@
       padding: 0.5em 1em;
       font-size: 16px;
       font-weight: 700;
-      border-radius: 0.5em;
-      background: var(--btn-bg);
-      transition: all .3s;
-      box-shadow: var(--btn-shadov);
+      border-radius: 12px;
+      background: var(--bg-color);
+      transition: all 0.3s;
+      box-shadow: var(--shadov);
      }
      
      button:active {
       color: rgb(216, 31, 31);
-      background-color: var(--btn-focus-bg);
+      background-color: var(--bg-color);
       box-shadow: var(--btn-active-shadov);
      }
 };

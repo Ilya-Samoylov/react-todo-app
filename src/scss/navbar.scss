@@ -3,14 +3,13 @@
     .nav {
         position: absolute;
         height: 95%;
-        left: 0;
-        top: 0;
+        left: 15px;
+        top: 10px;
         width: 55px;
-        margin: 10px 0px 0px 10px;
-        background: var(--nav-bg);
+        background: var(--bg-color);
         border-radius: 12px;
         overflow: hidden;
-        box-shadow: var(--nav-shadov);
+        box-shadow: var(--shadov);
         transition: width 0.5s;
     }
     .nav:hover{

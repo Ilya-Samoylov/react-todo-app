@@ -4,7 +4,7 @@ function addMarginOnHover(navSelector, mainSelector) {
 
     nav.addEventListener('mouseover', () => {
         if (window.innerWidth > 991) {
-            main.style.marginLeft = '160px';
+            main.style.marginLeft = '140px';
         }
     });
 

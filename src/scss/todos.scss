@@ -18,15 +18,15 @@
 .input {
     border: none;
     padding: 1em 10em 1em 2em;
-    border-radius: 1rem;
-    background: var(--btn-bg);
-    box-shadow: var(--input-shadov);
+    border-radius: 12px;
+    background: var(--bg-color);
+    box-shadow: var(--shadov);
     transition: 0.3s;
    }
    
    .input:focus {
     outline-color: #edf5ff;
-    background: var(--imput-focus-bg);
+    background: var(--bg-color);
     box-shadow: var(--imput-focus-shadov);
     transition: 0.3s;
    }
