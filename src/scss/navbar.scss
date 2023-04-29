@@ -7,10 +7,10 @@
         top: 10px;
         width: 55px;
         background: var(--bg-color);
-        border-radius: 12px;
+        border-radius: 18px;
         overflow: hidden;
         box-shadow: var(--shadov);
-        transition: width 0.5s;
+        transition: width 0.6s;
     }
     .nav:hover{
         height: 95%;
@@ -18,7 +18,7 @@
     };
 
     .nav__container {
-        padding: 20px 0px 0px 17px;
+        padding: 25px 0px 0px 17px;
     };
 
     .user__item {
@@ -31,11 +31,11 @@
     }
 
     h3 {
-        margin: 5px 0px 30px 25px;
-        font-size: 16px;
+        font-size: 18px;
         font-weight: 700;
         white-space: nowrap;
         color: var(--text);
+        margin: 3px 0px 30px 25px;
     }
     
     .nav__items {
@@ -98,12 +98,12 @@
             justify-content: center;
             height: 110px;
             width: 98%;
-            top: 90%;
+            top: 89%;
             margin: 0px 10px;
-            border-radius: 15px;
-            background: var(--nav-bg);
+            border-radius: 18px;
             box-shadow: var(  --nav-shadov-mobile);
         }
+
         .nav__container {
             display: flex;
             align-items: center;
@@ -185,32 +185,32 @@
     @media (max-width: $phones) {
         .nav {
             width: 95%;
-            top: 87%;
+            top: 86%;
             margin: 0px 10px;
-            padding: 0px 20px
+            padding: 0px 20px;
         }
 
         .user__photo {
-            width: 30px;
-            height: 30px;
+            width: 25px;
+            height: 25px;
         }
 
         .nav__menu {
-            margin-left: 30px;
+            margin-left: 35px;
         }
 
         .nav__list li:not(:last-child) {
-            margin-right: 30px;
+            margin-right: 35px;
         }
 
         .nav__icon {
-            width: 30px;
-            height: 30px;
+            width: 25px;
+            height: 25px;
         }
 
         .toggle {
-            width: 30px;
-            height: 30px;
+            width: 25px;
+            height: 25px;
         }
 
         .toggle-switch {
@@ -224,6 +224,7 @@
         .nav {
             height: 70px;
             top: 86%;
+            margin: 0px 8px;
         }
 
         .user__photo {

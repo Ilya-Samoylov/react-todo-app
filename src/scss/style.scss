@@ -42,8 +42,9 @@ $smalPhones: (360px); // iphone se/2, samsung galaxy 10 mini
 
 body {
     height: 100%;
-    font-family: $fontFamily; //Если шрифт одного класса
+    font-family: $fontFamily;
     background-color: var(--bg-color);
+    
     &._lock {
         overflow: hidden;
         touch-action: none;

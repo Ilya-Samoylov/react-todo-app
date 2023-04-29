@@ -9,11 +9,6 @@
                           4px 4px 12px #c5c5c5;
 //-------------------------------------------------------------------
 
-//button__add
-    --btn-active-shadov: inset 2px 2px 6px #c5c5c5,
-                            inset -2px -2px 6px #ffffff;
-//-------------------------------------------------------------------
-
 //todos
     --imput-focus-shadov: inset 5px 5px 10px #c5c5c5,
                             inset -5px -5px 10px #ffffff;
@@ -26,7 +21,7 @@
 //!Dark Theme
 :root[data-theme='dark'] {
     --bg-color: #3d3d3d;
-    --text: #949292;
+    --text: #1c1c1c;
     --shadov: 6px 6px 12px #333333,
                 -6px -6px 12px #4b4b4b;
 //nav
@@ -34,10 +29,6 @@
                             -8px -8px 14px #4b4b4b;
 //-------------------------------------------------------------------
 
-//button__add 
-    --btn-active-shadov: inset 2px 2px 6px #333333,
-                            inset -2px -2px 6px #4b4b4b;
-//-------------------------------------------------------------------
 //todos
     --imput-focus-shadov: inset 5px 5px 10px #333333,
                             inset -3px -3px 10px #4b4b4b;
