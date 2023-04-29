@@ -1,3 +1,6 @@
+main {
+  transition: margin-left 0.5s;
+}
 .page__main-block {
   display: flex;
   flex-direction: column;
@@ -22,9 +25,8 @@
     .icon-btn {
       width: 40px;
       height: 40px;
-      border: 1px solid #cdcdcd;
       background: var(--bg-color);
-      border-radius: 25px;
+      border-radius: 12px;
       overflow: hidden;
       position: relative;
       box-shadow: var(--shadov);
@@ -42,21 +44,21 @@
       transition: width 0.3s ease-in-out, border-radius 0.3s ease-in-out;
       content: "";
       position: absolute;
-      height: 4px;
-      width: 8px;
-      top: calc(49% - 2px);
+      height: 2.3px;
+      width: 7px;
+      top: calc(46%);
       background: var(--text);
     }
     
     .add-btn::after {
-      right: 11px;
+      right: 12px;
       overflow: hidden;
       border-top-right-radius: 2px;
       border-bottom-right-radius: 2px;
     }
     
     .add-btn::before {
-      left: 11px;
+      left: 12px;
       border-top-left-radius: 2px;
       border-bottom-left-radius: 2px;
     }
