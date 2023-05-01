@@ -20,55 +20,58 @@
     padding: 1em 10em 1em 2em;
     border-radius: 12px;
     background: var(--bg-color);
-    box-shadow: var(--shadov);
-    transition: 0.3s;
-   }
-   
-   .input:focus {
-    outline-color: #edf5ff;
-    background: var(--bg-color);
-    box-shadow: var(--imput-focus-shadov);
+    box-shadow: var(--imput-shadov);
+    transition: all 0.2s ease-in-out;
+    border: 2px solid rgb(206, 206, 206);
     transition: 0.3s;
    }
 
+   .input:hover {
+    box-shadow: var(--imput-hover)
+  }
+   
+   .input:focus {
+    outline: none;
+    box-shadow: var(--imput-focus);
+   }
+
 //laptops
-@media (max-width:$laptops) {
+@media (max-width: $large) {
     .todos {
         margin-top: 10px;
     }
     
     .todos__header h1 {
-        margin-bottom: 25px;
         font-size: 50px;
+        margin-bottom: 35px;
     }
 
     .input {
-        border-radius: 1rem;
-       }
+        padding: 1em 20em 1em 2em;
+    }
 }
 
 //Phones
-@media (max-width: $phones) {
+@media (max-width: $small) {
     .todos__header h1 {
         font-size: 40px;
+        margin-bottom: 30px;
     }
 
     .input {
         padding: 1em 4em;
-        border-radius: 1rem;
        }
 }
 //------------------------------------------
 
 //SmalPhones
-@media (max-width: $smalPhones) {
+@media (max-width: $extraSmall) {
     .todos__header h1 {
-        margin-bottom: 15px;
         font-size: 35px;
+        margin-bottom: 25px;
     }
 
     .input {
-        padding: 0.9em 2em;
-        border-radius: 1rem;
+        padding: 0.8em 3em;
        }
 }

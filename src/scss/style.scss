@@ -29,11 +29,11 @@ $maxWidth: 1920px; // Максимальна ширина макету
 //!</Контаінер>
 
 //<Брейк-поїнти>
-$desktops: (1200px); // large laptops and desktops
-$laptops: (992px); // laptops/desktops
-$tablets: (768px); // landscape tablets
-$phones: (600px); // portrait tablets and large phones
-$smalPhones: (360px); // iphone se/2, samsung galaxy 10 mini 
+$extraLarge: (1200px); // large laptops and desktops
+$large: (992px); // laptops/desktops
+$medium: (768px); // landscape tablets
+$small: (600px); // portrait tablets and large phones
+$extraSmall: (360px); // iphone se/2, samsung galaxy 10 mini 
 
 //</Брейк-поїнти>
 

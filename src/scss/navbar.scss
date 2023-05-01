@@ -1,5 +1,5 @@
 //Pc
-@media (min-width:$laptops){
+@media (min-width: $extraLarge){
     .nav {
         position: absolute;
         height: 95%;
@@ -50,7 +50,7 @@
     }
 
     .nav__item:hover {
-        color: rgb(255, 71, 99);
+        color: var(--active);
     }
 
     .nav__icon {
@@ -85,21 +85,21 @@
         white-space: nowrap;
         color: var(--text) 
     }:hover {
-        color: rgb(255, 71, 99);
+        color: var(--active);
     }
 };
 //------------------------------------------
     
 //laptops
-    @media (max-width:$laptops) {
+    @media (max-width: $large) {
         .nav {
             position: fixed;
             display: flex;
             justify-content: center;
             height: 110px;
-            width: 98%;
+            width: 95%;
             top: 89%;
-            margin: 0px 10px;
+            margin: 0px 20px;
             border-radius: 18px;
             box-shadow: var(  --nav-shadov-mobile);
         }
@@ -161,7 +161,7 @@
 //------------------------------------------
 
 //Tablets
-    @media (max-width: $tablets) {
+    @media (max-width: $medium) {
         .nav {
             height: 100px;
             top: 89%;
@@ -182,10 +182,10 @@
 //------------------------------------------
 
 //Phones
-    @media (max-width: $phones) {
+    @media (max-width: $small) {
         .nav {
             width: 95%;
-            top: 86%;
+            top: 85%;
             margin: 0px 10px;
             padding: 0px 20px;
         }
@@ -220,7 +220,7 @@
 //------------------------------------------
 
 //SmalPhones
-    @media (max-width: $smalPhones) {
+    @media (max-width: $extraSmall) {
         .nav {
             height: 70px;
             top: 86%;
