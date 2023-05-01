@@ -1,8 +1,8 @@
     .nav {
         background: var(--bg-color);
         border-radius: 18px;
-        box-shadow: var(  --nav-shadov-mobile);
     }
+    
     .toggle {
         background-image: var(--toggle);
         background-repeat: no-repeat;
@@ -106,8 +106,8 @@
             height: 110px;
             width: 95%;
             top: 89%;
+            box-shadow: var(--nav-shadov-mobile);
             margin: 0px 20px;
-
         }
 
         .nav__container {
