@@ -1,3 +1,14 @@
+    .nav {
+        background: var(--bg-color);
+        border-radius: 18px;
+        box-shadow: var(  --nav-shadov-mobile);
+    }
+    .toggle {
+        background-image: var(--toggle);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
 //Pc
 @media (min-width: $extraLarge){
     .nav {
@@ -6,8 +17,6 @@
         left: 15px;
         top: 10px;
         width: 55px;
-        background: var(--bg-color);
-        border-radius: 18px;
         overflow: hidden;
         box-shadow: var(--shadov);
         transition: width 0.6s;
@@ -74,9 +83,7 @@
     .toggle {
         width: 16px;
         height: 16px;
-        background-image: var(--toggle);
-        background-repeat: no-repeat;
-        background-size: contain;
+
     }
 
     .toggle__item {
@@ -100,8 +107,7 @@
             width: 95%;
             top: 89%;
             margin: 0px 20px;
-            border-radius: 18px;
-            box-shadow: var(  --nav-shadov-mobile);
+
         }
 
         .nav__container {
@@ -110,13 +116,13 @@
             margin: 0 auto;
         }
 
-        .user__item h3 {
-            display: none;
-        }
-
         .user__photo {
             width: 40px;
             height: 40px;
+        }
+
+        .user__item h3 {
+            display: none;
         }
 
         .nav__list {
@@ -149,9 +155,6 @@
         .toggle {
             width: 40px;
             height: 40px;
-            background-image: var(--toggle);
-            background-repeat: no-repeat;
-            background-size: contain;
         }
     
         .toggle__item {
