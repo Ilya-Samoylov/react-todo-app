@@ -2,57 +2,42 @@
 :root {
     --bg-color: #e8e8e8;
     --text: rgba(71, 71, 71, 1);
-    --shadov: 6px 6px 12px #c5c5c5,
-                -6px -6px 12px #ffffff;
-//nav
-    --nav-shadov-mobile: -8px -8px 14px #FFFFFF, 
-                          4px 4px 12px #c5c5c5;
-//-------------------------------------------------------------------
+    --shadov: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+    //nav
+    --nav-shadov-mobile: -8px -8px 14px #ffffff, 4px 4px 12px #c5c5c5;
+    //-------------------------------------------------------------------
 
-//todos
-    --imput-shadov: inset 2px 2px 5px #bcbcbc, 
-                    inset -2px -2px 5px #ffffff, 
-                     2px 2px 5px #c5c5c5, 
-                    -2px -2px 5px #ffffff;
+    //todos
+    --imput-shadov: inset 2px 2px 5px #c5c5c5, inset -2px -2px 5px #ffffff, 2px 2px 5px #c5c5c5, -2px -2px 5px #ffffff;
     --border-color: rgb(206, 206, 206);
-    --imput-hover: 5px 5px 17px #c8c8c8,
-                    -5px -5px 17px #ffffff;
-    --imput-focus: 5px 5px 17px #c8c8c8,
-                    -5px -5px 17px #ffffff;
+    --imput-hover: 5px 5px 17px #c8c8c8, -5px -5px 17px #ffffff;
+    --imput-focus: 5px 5px 17px #c8c8c8, -5px -5px 17px #ffffff;
     --active: rgb(255, 71, 99);
-//-------------------------------------------------------------------
+    //-------------------------------------------------------------------
 
-//Nav toggle img
-    --toggle: url(../img/nav/night.png)
-  }
+    //Nav toggle img
+    --toggle: url(../img/nav/night.png);
+}
 
 //!Dark Theme
-:root[data-theme='dark'] {
+:root[data-theme="dark"] {
     --bg-color: #3d3d3d;
     --text: #1c1c1c;
-    --shadov: 6px 6px 12px #363636,
-                -6px -6px 12px #4b4b4b;
-//nav
-    --nav-shadov-mobile: 4px 4px 14px #2a2a2a,
-                            -8px -8px 14px #4b4b4b;
-//-------------------------------------------------------------------
+    --shadov: 6px 6px 12px #363636, -6px -6px 12px #4b4b4b;
+    //nav
+    --nav-shadov-mobile: 4px 4px 14px #2a2a2a, -8px -8px 14px #4b4b4b;
+    //-------------------------------------------------------------------
 
-//todos
-    --imput-shadov: inset 4px 4px 10px #333333, 
-                    inset -4px -4px 10px #4b4b4b;
+    //todos
+    --imput-shadov: inset 4px 4px 10px #333333, inset -4px -4px 10px #4b4b4b;
     --border-color: rgb(52, 52, 52);
-    --imput-shadov: inset 2px 2px 5px #333333, 
-                    inset -2px -2px 5px #4b4b4b, 
-                     2px 2px 5px #333333, 
-                    -2px -2px 5px #4b4b4b;
+    --imput-shadov: inset 2px 2px 5px #333333, inset -2px -2px 5px #4b4b4b, 2px 2px 5px #333333, -2px -2px 5px #4b4b4b;
     --border-color: rgb(50, 50, 50);
-    --imput-hover: 5px 5px 17px #333333,
-                    -5px -5px 17px #4b4b4b;
-    --imput-focus: 5px 5px 17px #333333,
-                    -5px -5px 17px #4b4b4b;
+    --imput-hover: 5px 5px 17px #333333, -5px -5px 17px #4b4b4b;
+    --imput-focus: 5px 5px 17px #333333, -5px -5px 17px #4b4b4b;
     --active: rgb(255, 71, 99);
-//-------------------------------------------------------------------
+    //-------------------------------------------------------------------
 
-//Nav toggle img
-    --toggle: url(../img/nav/light.png)
-  }
+    //Nav toggle img
+    --toggle: url(../img/nav/light.png);
+}

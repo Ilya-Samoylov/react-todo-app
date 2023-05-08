@@ -24,23 +24,23 @@
     transition: all 0.2s ease-in-out;
     border: 2px solid var(--border-color);
     transition: 0.3s;
-   }
+}
 
-   .input:hover {
-    box-shadow: var(--imput-hover)
-  }
-   
-   .input:focus {
+.input:hover {
+    box-shadow: var(--imput-hover);
+}
+
+.input:focus {
     outline: none;
     box-shadow: var(--imput-focus);
-   }
+}
 
 //laptops
 @media (max-width: $large) {
     .todos {
         margin-top: 10px;
     }
-    
+
     .todos__header h1 {
         font-size: 50px;
         margin-bottom: 35px;
@@ -60,7 +60,7 @@
 
     .input {
         padding: 1em 4em;
-       }
+    }
 }
 //------------------------------------------
 
@@ -73,5 +73,5 @@
 
     .input {
         padding: 0.8em 3em;
-       }
+    }
 }

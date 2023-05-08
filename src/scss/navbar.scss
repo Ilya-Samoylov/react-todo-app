@@ -1,16 +1,16 @@
-    .nav {
-        background: var(--bg-color);
-        border-radius: 18px;
-    }
-    
-    .toggle {
-        background-image: var(--toggle);
-        background-repeat: no-repeat;
-        background-size: contain;
-    }
+.nav {
+    background: var(--bg-color);
+    border-radius: 18px;
+}
+
+.toggle {
+    background-image: var(--toggle);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 
 //Pc
-@media (min-width: $extraLarge){
+@media (min-width: $extraLarge) {
     .nav {
         position: absolute;
         height: 95%;
@@ -21,20 +21,20 @@
         box-shadow: var(--shadov);
         transition: width 0.6s;
     }
-    .nav:hover{
+    .nav:hover {
         height: 95%;
         width: 200px;
-    };
+    }
 
     .nav__container {
         padding: 20px 0px 0px 17px;
-    };
+    }
 
     .user__item {
         display: flex;
     }
 
-    .user__photo{
+    .user__photo {
         width: 24px;
         height: 24px;
     }
@@ -46,16 +46,16 @@
         color: var(--text);
         margin: 5px 0px 30px 25px;
     }
-    
+
     .nav__items {
         display: flex;
         align-items: center;
         color: var(--text);
         margin: 40px 0px 0px 3px;
-         span {
+        span {
             font-weight: 300;
-            margin-left: 30px
-            }
+            margin-left: 30px;
+        }
     }
 
     .nav__item:hover {
@@ -78,174 +78,174 @@
         align-items: center;
         margin: 0px 0px 0px 3px;
         bottom: 70px;
-    }   
+    }
 
     .toggle {
         width: 16px;
         height: 16px;
-
     }
 
     .toggle__item {
         font-weight: 300;
         margin-left: 30px;
         white-space: nowrap;
-        color: var(--text) 
-    }:hover {
+        color: var(--text);
+    }
+    :hover {
         color: var(--active);
     }
-};
+}
 //------------------------------------------
-    
+
 //laptops
-    @media (max-width: $large) {
-        .nav {
-            position: fixed;
-            display: flex;
-            justify-content: center;
-            height: 110px;
-            width: 95%;
-            top: 89%;
-            box-shadow: var(--nav-shadov-mobile);
-            margin: 0px 20px;
-        }
-
-        .nav__container {
-            display: flex;
-            align-items: center;
-            margin: 0 auto;
-        }
-
-        .user__photo {
-            width: 40px;
-            height: 40px;
-        }
-
-        .user__item h3 {
-            display: none;
-        }
-
-        .nav__list {
-            display:flex;
-        }
-
-        .nav__list li:not(:last-child) {
-            margin-right: 80px;
-        }
-
-        .nav__menu {
-            margin-left: 80px;
-        }
-
-        .nav__icon {
-            width: 40px;
-            height: 40px;
-        } 
-
-        .nav__item {
-            display: none;
-        }
-
-        .toggle-switch {
-            display: flex;
-            align-items: center;
-            margin-left: 80px;
-        }   
-    
-        .toggle {
-            width: 40px;
-            height: 40px;
-        }
-    
-        .toggle__item {
-            display: none;
-        }
+@media (max-width: $large) {
+    .nav {
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        height: 110px;
+        width: 95%;
+        top: 89%;
+        box-shadow: var(--nav-shadov-mobile);
+        margin: 0px 20px;
     }
+
+    .nav__container {
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .user__photo {
+        width: 40px;
+        height: 40px;
+    }
+
+    .user__item h3 {
+        display: none;
+    }
+
+    .nav__list {
+        display: flex;
+    }
+
+    .nav__list li:not(:last-child) {
+        margin-right: 80px;
+    }
+
+    .nav__menu {
+        margin-left: 80px;
+    }
+
+    .nav__icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .nav__item {
+        display: none;
+    }
+
+    .toggle-switch {
+        display: flex;
+        align-items: center;
+        margin-left: 80px;
+    }
+
+    .toggle {
+        width: 40px;
+        height: 40px;
+    }
+
+    .toggle__item {
+        display: none;
+    }
+}
 //------------------------------------------
 
 //Tablets
-    @media (max-width: $medium) {
-        .nav {
-            height: 100px;
-            top: 89%;
-        }
-    
-        .nav__menu {
-            margin-left: 60px;
-        }
-    
-        .nav__list li:not(:last-child) {
-            margin-right: 60px;
-        }
-
-        .toggle-switch {
-            margin-left: 60px;
-        }
+@media (max-width: $medium) {
+    .nav {
+        height: 100px;
+        top: 89%;
     }
+
+    .nav__menu {
+        margin-left: 60px;
+    }
+
+    .nav__list li:not(:last-child) {
+        margin-right: 60px;
+    }
+
+    .toggle-switch {
+        margin-left: 60px;
+    }
+}
 //------------------------------------------
 
 //Phones
-    @media (max-width: $small) {
-        .nav {
-            width: 95%;
-            top: 85%;
-            margin: 0px 10px;
-            padding: 0px 20px;
-        }
-
-        .user__photo {
-            width: 25px;
-            height: 25px;
-        }
-
-        .nav__menu {
-            margin-left: 35px;
-        }
-
-        .nav__list li:not(:last-child) {
-            margin-right: 35px;
-        }
-
-        .nav__icon {
-            width: 25px;
-            height: 25px;
-        }
-
-        .toggle {
-            width: 25px;
-            height: 25px;
-        }
-
-        .toggle-switch {
-            margin-left: 30px;
-        }
+@media (max-width: $small) {
+    .nav {
+        width: 95%;
+        top: 85%;
+        margin: 0px 10px;
+        padding: 0px 20px;
     }
+
+    .user__photo {
+        width: 25px;
+        height: 25px;
+    }
+
+    .nav__menu {
+        margin-left: 35px;
+    }
+
+    .nav__list li:not(:last-child) {
+        margin-right: 35px;
+    }
+
+    .nav__icon {
+        width: 25px;
+        height: 25px;
+    }
+
+    .toggle {
+        width: 25px;
+        height: 25px;
+    }
+
+    .toggle-switch {
+        margin-left: 30px;
+    }
+}
 //------------------------------------------
 
 //SmalPhones
-    @media (max-width: $extraSmall) {
-        .nav {
-            height: 70px;
-            top: 86%;
-            margin: 0px 8px;
-        }
-
-        .user__photo {
-            width: 20px;
-            height: 20px;
-        }
-
-        .nav__menu {
-            margin-left: 25px;
-        }
-
-        .nav__icon {
-            width: 20px;
-            height: 20px;
-        }
-
-        .toggle {
-            width: 20px;
-            height: 20px;
-        }
+@media (max-width: $extraSmall) {
+    .nav {
+        height: 70px;
+        top: 86%;
+        margin: 0px 8px;
     }
+
+    .user__photo {
+        width: 20px;
+        height: 20px;
+    }
+
+    .nav__menu {
+        margin-left: 25px;
+    }
+
+    .nav__icon {
+        width: 20px;
+        height: 20px;
+    }
+
+    .toggle {
+        width: 20px;
+        height: 20px;
+    }
+}
