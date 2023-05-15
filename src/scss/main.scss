@@ -1,9 +1,3 @@
-main {
-  position: fixed;
-  border-radius: 18px;
-  background-color: var(--bg-color);
-  box-shadow: var(--shadov);
-}
 .icon-btn {
   width: 40px;
   height: 40px;
@@ -113,14 +107,11 @@ main {
 
 @media (min-width: $extraLarge) {
   main {
-    position: fixed;
-    top: 10px;
-    left: 10%;
-    width: 85%;
-    height: 95%;
     transition: margin-left 0.6s;
   }
-
+  .main__container {
+    margin: 25px 0px 0px 120px;
+  }
   .page__main-block {
     display: flex;
     flex-direction: column;
@@ -147,14 +138,6 @@ main {
 
 //laptops
 @media (max-width: $large) {
-  main {
-    top: 20px;
-    left: 0;
-    width: 95%;
-    height: 85%;
-    margin: 0px 20px;
-  }
-
   .page__main-block {
     align-items: center;
     margin: 0 auto;
@@ -180,15 +163,6 @@ main {
 
 //Portrait tablets and large phones
 @media (max-width: $medium) {
-  main {
-    top: 10px;
-    left: 0;
-    width: 95%;
-    height: 85%;
-    margin: 0px 15px;
-    padding: 0px 20px;
-  }
-
   .button__add-container {
     top: 72%;
   }
@@ -197,14 +171,6 @@ main {
 
 //Phones
 @media (max-width: $small) {
-  main {
-    top: 10px;
-    width: 95%;
-    height: 80%;
-    margin: 0px 10px;
-    padding: 0px 20px;
-  }
-
   .page__main-block {
     margin: 0;
   }
@@ -221,12 +187,6 @@ main {
 
 //SmalPhones
 @media (max-width: $extraSmall) {
-  main {
-    width: 95%;
-    height: 80%;
-    margin: 0px 8px;
-  }
-
   .button__add-container {
     top: 72%;
   }

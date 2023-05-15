@@ -18,12 +18,16 @@
         top: 10px;
         width: 55px;
         overflow: hidden;
-        box-shadow: var(--shadov);
+        box-shadow: var(--imput-shadov);
         transition: width 0.6s;
     }
     .nav:hover {
         height: 95%;
         width: 200px;
+    }
+    .nav:focus {
+        outline: none;
+        box-shadow: var(--imput-focus);
     }
 
     .nav__container {
