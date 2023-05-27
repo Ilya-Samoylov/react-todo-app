@@ -3,6 +3,31 @@
     border-radius: 18px;
 }
 
+.nav__items {
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.tasks {
+    background-image: var(--tasks);
+}
+
+.today {
+    background-image: var(--today);
+}
+
+.upcoming {
+    background-image: var(--upcoming);
+}
+
+.logout {
+    background-image: var(--logout);
+}
+
+.toggle {
+    background-image: var(--toggle);
+}
+
 .toggle {
     background-image: var(--toggle);
     background-repeat: no-repeat;
@@ -31,7 +56,7 @@
     }
 
     .nav__container {
-        padding: 20px 0px 0px 17px;
+        padding: 25px 0px 0px 17px;
     }
 
     .user__item {
@@ -48,18 +73,19 @@
         font-weight: 700;
         white-space: nowrap;
         color: var(--text);
-        margin: 5px 0px 30px 25px;
+        margin: 2px 0px 30px 20px;
     }
 
     .nav__items {
         display: flex;
         align-items: center;
+        margin: 45px 0px 0px 5px;
+    }
+
+    .nav__item {
+        font-weight: 300;
         color: var(--text);
-        margin: 40px 0px 0px 3px;
-        span {
-            font-weight: 300;
-            margin-left: 30px;
-        }
+        margin-left: 40px;
     }
 
     .nav__item:hover {
@@ -80,7 +106,7 @@
         position: absolute;
         display: flex;
         align-items: center;
-        margin: 0px 0px 0px 3px;
+        margin: 0px 0px 0px 5px;
         bottom: 70px;
     }
 
@@ -91,7 +117,7 @@
 
     .toggle__item {
         font-weight: 300;
-        margin-left: 30px;
+        margin-left: 40px;
         white-space: nowrap;
         color: var(--text);
     }
@@ -129,6 +155,10 @@
         display: none;
     }
 
+    .nav__menu {
+        margin-left: 80px;
+    }
+
     .nav__list {
         display: flex;
     }
@@ -137,11 +167,8 @@
         margin-right: 80px;
     }
 
-    .nav__menu {
-        margin-left: 80px;
-    }
-
-    .nav__icon {
+    .nav__items {
+        display: flex;
         width: 40px;
         height: 40px;
     }
@@ -152,7 +179,6 @@
 
     .toggle-switch {
         display: flex;
-        align-items: center;
         margin-left: 80px;
     }
 
@@ -210,7 +236,7 @@
         margin-right: 35px;
     }
 
-    .nav__icon {
+    .nav__items {
         width: 25px;
         height: 25px;
     }
@@ -243,7 +269,11 @@
         margin-left: 25px;
     }
 
-    .nav__icon {
+    .nav__list li:not(:last-child) {
+        margin-right: 25px;
+    }
+
+    .nav__items {
         width: 20px;
         height: 20px;
     }
@@ -251,5 +281,9 @@
     .toggle {
         width: 20px;
         height: 20px;
+    }
+
+    .toggle-switch {
+        margin-left: 20px;
     }
 }

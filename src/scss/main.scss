@@ -156,7 +156,7 @@
   .button__add-container {
     position: fixed;
     top: 80%;
-    left: 45%;
+    left: 50%;
   }
 }
 //------------------------------------------
@@ -165,6 +165,7 @@
 @media (max-width: $medium) {
   .button__add-container {
     top: 72%;
+    left: 45%;
   }
 }
 //

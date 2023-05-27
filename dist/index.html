@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css?_v=20230527144513">
+    <title>Todo</title>
+    <link rel="icon" type="image/x-icon" href="../img/fav.png">
+</head>
+
+<body>
+	<nav class="nav">
+    <div class="nav__container">
+        <a href="#" class="user__item">
+            <picture><source srcset="../img/nav/user-60.webp" type="image/webp"><img src="../img/nav/user-60.png" alt="" class="user__photo"></picture>
+            <h3>HI, Liam!</h3>
+        </a>
+        <div class="nav__menu">
+            <ul class="nav__list">
+                <li>
+                    <a href="/" class="nav__items tasks">
+                        <span class="nav__item">Tasks</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav__items today">
+                        <span class="nav__item">Today</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav__items upcoming">
+                        <span class="nav__item">Upcoming</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav__items second__item logout">
+                        <span class="nav__item">Logout</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="toggle-switch toggle">
+            <span class="toggle__item">Theme swith</span>
+        </div>
+    </div>
+</nav>
+	<main>
+		<div class="main__container container">
+			<div class="page__main-block">
+				<div class="main-block-body">
+					<div class="project">
+						<h2>Your to do list</h2>
+					</div>
+					<div class="button__add-container">
+						<button class="icon-btn add-btn">
+							<div class="add-icon"></div>
+							<div class="btn-txt">Add New Todo</div>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<section class="todos">
+    <div class="todos__container container">
+        <div class="todos__header">
+            <h1>Todos</h1>
+            <input class="input" autofocus autocomplete="off" placeholder="What needs to be done?" />
+        </div>
+    </div>
+</section>
+	</main>
+	<script src="js/app.min.js?_v=20230527144513"></script>
+</body>
+</html>
