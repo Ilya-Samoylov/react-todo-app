@@ -2,6 +2,7 @@
 gulp
 node_modules
 src
+.gitidnore
 gulpfile.js
 package-lock.json
 package.json
